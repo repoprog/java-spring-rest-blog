@@ -8,6 +8,5 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.stereotype.Component;
 
 
-@Component
 @RepositoryRestResource(exported = false)
 public interface AuthorRepository extends JpaRepository<Author, Long> {}
