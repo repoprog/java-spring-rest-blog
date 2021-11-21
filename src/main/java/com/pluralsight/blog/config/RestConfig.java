@@ -8,5 +8,4 @@ import org.springframework.validation.*;
 
 public class RestConfig {
 
-
 }
